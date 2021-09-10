@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+<!-- __________________________________HEADER______________________________ -->
+
+
+
+
+
+    <div class="header" id="header">
+        <nav>
+            <div class="logo">
+                <a href="">MY SITE</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+   
+    
+    <div class="text-box">
+        <h1>Hy This is me Tanveer</h1>
+        <h1>and i am a Professional web developer</h1>
+        <h2>if you are looking for any good website contact me</h2>
+        <a href="mailto:shiekhtanveer293@gmail.com">Click Here</a>
+       <div class="button">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+      
+    </div>
+        </div>
+    </div>
+
+    <!-- ___________________section2__________________ -->
+    <div class="section-2" id="courses">
+    <div class="head1" id="head1">
+        <h1>COURSES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nam delectus! Esse aliquid voluptatibus atque earum, quos veniam rem omnis iure, nisi mollitia sequi, ex eos doloribus quo repellendus dolore.lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sequi consequatur dolorum iusto eligendi velit quia modi repellat quos, pariatur consequuntur cumque et ex. Quos voluptas pariatur repellat unde minima!
+         
+        </p>
+    </div>
+    <div class="cards">
+        <div class="card card1" id="card">
+            <h1>
+                HTML5
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos sapiente minus quam atque quod distinctio vitae debitis ex libero repudiandae ipsam iure, laborum officiis, facilis impedit quidem eum. Id?</p>
+            <a href="">Read More</a>
+        </div>
+        <div class="card card1" id="card">
+            <h1>
+                JAVASCRIPT
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos sapiente minus quam atque quod distinctio vitae debitis ex libero repudiandae ipsam iure, laborum officiis, facilis impedit quidem eum. Id?</p>
+            <a href="">Read More</a>
+        </div>   <div class="card card1" id="card">
+            <h1>
+                CSS
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos sapiente minus quam atque quod distinctio vitae debitis ex libero repudiandae ipsam iure, laborum officiis, facilis impedit quidem eum. Id?</p>
+            <a href="">Read More</a> 
+        </div>
+    </div>
+
+    </div>
+ 
+
+ <div class="about" id="about">
+     <div class="pic" id="pic">
+        <img src="1631285704163.png" alt="">
+     </div>
+     <div class="about-info">
+         <h1>HEY I AM  TANVEER AHMAD SHIEKH</h1>
+         <h1>AND I AM A PROFESSIONAL WEB DEVELOPER</h1>
+         <h2>i have done my BCA form GDC baramulla </h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum saepe consequatur quae rem laborum. Sint officiis optio quas deleniti 
+            adipisicing elit. Illum saepe consequatur quae rem laborum. Sint officiis optio quas deleniti 
+        </p>
+         <a href="">Read More</a>
+        
+     </div>
+
+ </div>
+ 
+
+
+
+
+      
+ 
+
+
+
+
+
+ <footer class="contact" id="contact">
+
+
+<div class="data">
+    <form action=""></form>
+    <table>
+        <tr><h2>post your feedback</h2></tr>
+       <th> <input type="text" placeholder="Enter Your Name"></th>
+       <tr>
+        <input type="email" placeholder="Enter Your Email" >
+     
+       <th><textarea name="" id="" ></textarea></tr>
+    <th>    <input class="submit" type="submit"></th>
+    
+    </table>
+    <table>
+        <tr><h2>Login Here</h2></tr>
+        <th> <input type="email" placeholder="Email"></th>
+        <tr>
+         <input type="password" placeholder="Password" >
+        </tr>
+     <th>    <input class="submit" type="submit"></th>
+    </table>
+
+</form>
+</div>
+    
+<div class="foot " id="foot">
+    <h2>website designed by Tanveer</h2>
+    <h2>@website copyright by Tanveer</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ex quos accusamus laudantium possimus, totam aliquam, at obcaecati minus quas illo quidem consequatur eaque pariatur. Ullam officiis quidem provident voluptatibus.</p>
+    <div class="social-icons">
+
+    </div>
+</div>
+
+
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- _____________________JAVASCRIPT CODE FOR NAVBAR_______________ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-252px";
+        }
+    </script>
+</body>
+
+</html>
